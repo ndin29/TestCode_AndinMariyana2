@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: rgb(87, 179, 255);
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 65px;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(87, 179, 255);
+    color :#000;
+}
+
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kotak_login{
+    width: 350px;
+    background: #fff;
+    margin: 80px 500px;
+    padding: 30px 20px;
+    margin-top: 100px;
+}
+
+label{
+    font-size: 15px;
+}
+
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: #46de4b;
+    color: #fff;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link{
+    color: #5948f7;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.pesan_error {
+	color: #fd0000;
+	margin: -15px 0 10px 0;
+}
+
+.belumPunyaAkun{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 12pt;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sidebar{
+   background-color: rgb(31, 25, 25);
+   width: 190px;
+   float: left;
+   position: fixed;
+   padding: 5px;
+}

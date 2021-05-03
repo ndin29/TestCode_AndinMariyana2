@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial;
+}
+
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.resume .resume-left{
+    width: 300px;
+    background: rgb(27, 92, 129);
+    height: 700px;
+}
+
+.resume .resume-right{
+    width: 500px;
+    background: rgb(231, 231, 231);
+    height: 700px;
+}
